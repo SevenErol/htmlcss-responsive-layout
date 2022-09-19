@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header_bg: #0084fd;
+    --darker: #323332;
+    --dark: #363637;
+    --primary: #fffefe;
+    --primary-light: #f7f4fd;
+    --blue-bg-col: #b4ddfe;
+    --lilac-bg-section: #9793e5;
+}
