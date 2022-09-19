@@ -381,3 +381,55 @@ a {
 
 /* #endregion benefits  */
 
+/* #region about */
+
+.about h2 {
+    font-size: 48px;
+    color: var(--lilac-bg-section);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.about img {
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.about .cit {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--lilac-bg-section);
+    margin-bottom: 2rem;
+}
+
+.about .btn {
+    border: none;
+    background-color: var(--lilac-bg-section);
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+}
+
+.about .btn:hover {
+    background-color: var(--darker);
+    transition: 0.4s;
+}
+
+.about .col_3 {
+    position: relative;
+}
+
+.about .fa-quote-right {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    font-size: 48px;
+    color: var(--lilac-bg-section);
+}
+
+/* #endregion about */
+
