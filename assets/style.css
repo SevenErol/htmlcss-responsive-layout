@@ -383,6 +383,11 @@ a {
 
 /* #region about */
 
+
+.about {
+    padding: 2rem;
+}
+
 .about h2 {
     font-size: 48px;
     color: var(--lilac-bg-section);
@@ -432,4 +437,74 @@ a {
 }
 
 /* #endregion about */
+
+/* #region call to action */
+
+.small_cont {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.call_to_action {
+    background-color: var(--lilac-bg-section);
+    padding: 2rem;
+}
+
+.small_cont h2,
+.small_cont h3,
+.small_cont h4,
+.small_cont p {
+    margin-bottom: 2rem;
+}
+
+.small_cont h4 {
+    color: var(--dark);
+    
+}
+
+.small_cont h3 {
+    color: var(--primary);
+    font-size: 36px;
+}
+
+.small_cont h2 {
+    color: orange;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.small_cont p {
+    color: var(--primary);
+}
+
+.call_to_action .btn {
+    display: inline-block;
+    color: var(--dark);
+    background-color: var(--primary-light);
+    border: none;
+    width: 20%;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.call_to_action .btn:hover {
+    color: var(--primary);
+    background-color: var(--dark);
+    transition: 0.4s;
+}
+
+.privacy {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+.privacy:hover {
+    cursor: pointer;
+    color: var(--text-blue);
+    transition: 0.4s;
+}
+
+/* #endregion call to action */
 
