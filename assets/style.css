@@ -6,7 +6,7 @@
 
 :root {
     --header_bg: #0084fd;
-    --text-blue:#0084fd;
+    --text-blue: #0084fd;
     --darker: #323332;
     --dark: #363637;
     --primary: #fffefe;
@@ -325,7 +325,7 @@ header .head_icon {
     color: var(--primary);
 }
 
-.cit i{
+.cit i {
     font-size: 24px;
 }
 
@@ -476,7 +476,7 @@ header .head_icon {
 
 .small_cont h4 {
     color: var(--dark);
-    
+
 }
 
 .small_cont h3 {
@@ -650,4 +650,27 @@ footer a:hover {
     .call_to_action .btn {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    header .right_col {
+        display: none;
+    }
+
+    header .head_icon {
+        display: inline-block;
+    }
+
+    [class^="col_"] {
+        width: 100%;
+    }
+
+    .call_to_action .btn {
+        width: 50%;
+    }
+    
 }
