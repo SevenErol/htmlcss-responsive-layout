@@ -224,8 +224,8 @@ header .head_icon {
     padding: 2rem;
 }
 
-.planning img {
-    height: 300px;
+.planning .first {
+    width: 300px;
     margin-bottom: 2rem;
 }
 
@@ -275,6 +275,11 @@ header .head_icon {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.arrow:hover {
+    background-color: var(--primary);
+    transition: 0.4s;
 }
 
 /* #endregion planning */
@@ -555,6 +560,17 @@ footer a:hover {
         display: none;
     }
 
+    .demo .col_8,
+    .demo .col_4 {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .app_store {
+        width: 100%;
+        text-align: center;
+    }
+
     header .head_icon {
         display: inline-block;
     }
@@ -584,6 +600,47 @@ footer a:hover {
 
     .partners {
         text-align: center;
+    }
+
+    .partners img {
+        padding: 1rem;
+    }
+
+    .call_to_action .btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header .right_col {
+        display: none;
+    }
+
+    header .head_icon {
+        display: inline-block;
+    }
+
+    [class^="col_"] {
+        width: 100%;
+    }
+
+    .planning img {
+        object-fit: contain;
+    }
+
+    .about .col_3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about .fa-quote-right {
+        top: 22%;
     }
 
     .partners img {
