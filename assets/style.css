@@ -546,11 +546,51 @@ footer a:hover {
 /* #endregion footer */
 
 @media screen and (max-width: 480px) {
+
+    .container {
+        width: 90%;
+    }
+
     header .right_col {
         display: none;
     }
 
     header .head_icon {
         display: inline-block;
+    }
+
+    main .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    [class^="col_"] {
+        width: 100%;
+    }
+
+    .col_8 .col_12 {
+        flex-wrap: wrap;
+    }
+
+    .rel {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .rel img {
+        position: static;
+        height: 200px;
+    }
+
+    .partners {
+        text-align: center;
+    }
+
+    .partners img {
+        padding: 1rem;
+    }
+
+    .call_to_action .btn {
+        width: 100%;
     }
 }
