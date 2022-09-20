@@ -130,6 +130,12 @@ a {
     transition: 0.4s;
 }
 
+header .head_icon {
+    color: var(--primary);
+    font-size: 24px;
+    display: none;
+}
+
 /* #endregion heeader */
 
 /* #region demo */
@@ -539,3 +545,12 @@ footer a:hover {
 
 /* #endregion footer */
 
+@media screen and (max-width: 480px) {
+    header .right_col {
+        display: none;
+    }
+
+    header .head_icon {
+        display: inline-block;
+    }
+}
